@@ -1,7 +1,7 @@
 # README
 
 # URL
-https://stcook.herokuapp.com/
+https://startcook.herokuapp.com
 
 # gitリポジトリ
 https://git.heroku.com/stcook.git
