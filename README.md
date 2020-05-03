@@ -1,5 +1,12 @@
 # README
 
+# URL
+https://startcook.herokuapp.com/
+
+# gitリポジトリ
+https://git.heroku.com/startcook.git
+
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
