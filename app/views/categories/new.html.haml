@@ -1,0 +1,6 @@
+.content__title
+  新規カテゴリーの作成
+
+= form_with model: @category, class: :form, local: true do |f|
+  = f.text_field :name, placeholder: :カテゴリー名, class: :form__title, id: "name"
+  = f.submit '投稿する', class: :form__btn

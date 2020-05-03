@@ -1,0 +1,11 @@
+.menuTitle
+  = @menu.title
+.menuData
+  = @menu.created_at
+.menuAuthor
+- if user_signed_in? && current_user.id == @menu.user_id
+  .menuManage
+    = link_to "編集", edit_category_menu_path(@menu.category_id, @menu.id), class: "menuManage__edit"
+    = link_to "削除", category_menu_path(@menu.category_id, @menu.id), method: :delete, class: "menuManage__delete"
+.menuText
+  = simple_format @menu.detail

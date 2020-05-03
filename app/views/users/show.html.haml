@@ -1,0 +1,7 @@
+.contents_row
+  = @nickname + "さんの投稿一覧"
+
+  - @categories.each do |category|
+    = simple_format(category.name)
+
+  = paginate(@categories)

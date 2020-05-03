@@ -1,0 +1,7 @@
+= form_with(url: categories_searches_path, local: true, method: :get, class: "search-form") do |f|
+  = f.text_field :keyword, placeholder: "カテゴリーを検索する", class: "search-input", id: "keyword"
+  = f.submit "検索", class: "search-btn"
+
+- @categories.each do |category|
+  = render category
+= paginate(@categories)
