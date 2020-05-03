@@ -74,5 +74,3 @@ gem 'kaminari'
 gem 'carrierwave'
 gem 'mini_magick'
 gem 'jquery-rails'
-gem 'sqlite3', group: [:development, :test]
-gem 'pg', group: :production
