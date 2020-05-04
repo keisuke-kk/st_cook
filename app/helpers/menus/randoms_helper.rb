@@ -1,0 +1,2 @@
+module Menus::RandomsHelper
+end

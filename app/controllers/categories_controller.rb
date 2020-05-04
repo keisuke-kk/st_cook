@@ -1,6 +1,6 @@
 class CategoriesController < ApplicationController
   before_action :set_category, only: [:edit, :show]
-  # before_action :move_to_index, except: [:index, :show]
+  before_action :move_to_index, except: [:index, :show]
 
   def index
     @categories = Category.includes(:user).order("created_at DESC").page(params[:page]).per(5)
@@ -31,10 +31,16 @@ class CategoriesController < ApplicationController
 
   def destroy
     category = Category.find(params[:id])
-    # menus = category.menus
-    # menus.destroy
+    category.menus.destroy
     category.destroy
     redirect_to root_path
+  end
+
+  def random
+    menu = Menu.all.shuffle.first(1)
+    redirect_to url: category_menu_path(menu.category_id, menu.id)
+
+    # Category.random
   end
 
   private

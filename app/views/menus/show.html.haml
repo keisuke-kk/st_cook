@@ -8,4 +8,5 @@
     = link_to "編集", edit_category_menu_path(@menu.category_id, @menu.id), class: "menuManage__edit"
     = link_to "削除", category_menu_path(@menu.category_id, @menu.id), method: :delete, class: "menuManage__delete"
 .menuText
+  = image_tag "#{@menu.image}", class: :imop if @menu.image.length > 0
   = simple_format @menu.detail

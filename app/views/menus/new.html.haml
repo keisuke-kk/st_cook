@@ -4,4 +4,5 @@
 = form_with model: @menu, url: category_menus_path, method: :post, class: :form, local: true do |f|
   = f.text_field :title, placeholder: :メニュー名, class: :form__title
   = f.text_area :detail, placeholder: :詳細, class: :form__text
+  = f.file_field :image, class: 'hidden'
   = f.submit '投稿する', class: :form__btn

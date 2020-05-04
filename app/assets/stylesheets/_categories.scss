@@ -5,7 +5,7 @@ body{
   .header{
     height: 56px;
     padding: 0 150px;
-    background-color: #55c500;
+    background-color: #008080;
     color: #fff;
     display: flex;
     justify-content:
@@ -116,7 +116,7 @@ body{
         display: block;
         border-radius: 5px;
         color: #ffffff;
-        background-color:#55c500;
+        background-color:#008080;
         padding: 0 10px;
         text-decoration: none;
         margin-right: 10px;
@@ -125,7 +125,7 @@ body{
         display: block;
         border-radius: 5px;
         color: #ffffff;
-        background-color:#55c500;
+        background-color:#008080;
         padding: 0 10px;
         text-decoration: none;
         margin-left: 10px;
@@ -133,6 +133,11 @@ body{
     }
     .menuText{
       margin: 20px 30px;
+
+      .imop{
+        height: 100%;
+        width: 100%;
+      }
     }
   }
   .form{
