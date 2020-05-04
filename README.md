@@ -6,6 +6,9 @@ https://gyazo.com/7b0022221e4e5f9ab194c140f2c0c325
 
 # Features
 "Start Cook" is clarify you should cook today.
+It means keeping motivation to improvement of cooking.
+And can sort menus into category.
+Let's create cookingmenu together with everyone!
 
 # URL
 https://startcook.herokuapp.com
