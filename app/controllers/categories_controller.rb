@@ -25,7 +25,7 @@ class CategoriesController < ApplicationController
   end
 
   def show
-    @menus = @category.menus.includes(:user).order("created_at DESC")
+    @menus = @category.menus.includes(:user).order("created_at DESC").page(params[:page]).per(5)
     # @menu = Menu.find(params[:id])
   end
 
