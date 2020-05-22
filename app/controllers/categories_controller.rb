@@ -37,7 +37,7 @@ class CategoriesController < ApplicationController
   end
 
   def random
-    menu = Menu.all.shuffle.first(1)
+    menu = Menu.all.shuffle.first
     redirect_to url: category_menu_path(menu.category_id, menu.id)
 
     # Category.random

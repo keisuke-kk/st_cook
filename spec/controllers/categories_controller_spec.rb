@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-describe CategoriesController do
+describe CategoriesController, type: :controller do
 
   describe 'GET #new' do
     it "new.html.hamlに遷移すること" do
