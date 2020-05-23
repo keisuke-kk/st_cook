@@ -1,3 +1,35 @@
+# アプリ名
+## Start Cook
+
+
+# 概要
+
+
+# 本番環境
+
+
+# 制作背景
+
+
+# DEMO
+
+
+# 工夫したポイント
+
+
+# 使用技術(開発環境)
+
+
+# 課題や今後実装したい機能
+
+
+
+
+
+
+
+
+
 # Start Cook
 "Start Cook" is sorting of cuisine menu to your cooking motivation_up, with Ruby.
 
