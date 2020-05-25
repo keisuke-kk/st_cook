@@ -1,5 +1,5 @@
 class MenusController < ApplicationController
-  before_action :move_to_index, except: [:index, :show]
+  before_action :move_to_index, except: [:index, :show,]
 
   def new
     @menu = Menu.new
@@ -30,14 +30,6 @@ class MenusController < ApplicationController
     menu.destroy
     redirect_to root_path
   end
-
-  # def random
-  #   # Menu.random
-  #   # menu = Menu.offset( rand(Menu.count) ).first.take(1)
-
-  #   menu = Menu.all.shuffle.first(1)
-  #   redirect_to url: category_menu_path(menu.id)
-  # end
 
   private
   def menu_params

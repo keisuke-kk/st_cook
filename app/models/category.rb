@@ -8,4 +8,8 @@ class Category < ApplicationRecord
     Category.where('name LIKE(?)', "%#{search}%")
   end
 
+  def self.random
+    return Menu.all.shuffle.first
+  end
+
 end
