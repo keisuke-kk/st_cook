@@ -10,6 +10,7 @@ body{
     display: flex;
     justify-content:
      space-between;
+    margin-bottom: 30px;
 
     &__title{
       font-size: 30px;
@@ -29,6 +30,24 @@ body{
         color: #fff;
         margin-left:15px;
       }
+    }
+  }
+
+  .rd {
+    text-align: center;
+    font-size: 20px;
+    background-color: #008080;
+    border-radius: 18px;
+    margin: 0 auto;
+    width: 280px;
+
+    a {
+      display: block;
+    }
+
+    .rd_link {
+      text-decoration: none;
+      color: #fff;
     }
   }
 

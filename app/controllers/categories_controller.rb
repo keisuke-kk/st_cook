@@ -38,9 +38,8 @@ class CategoriesController < ApplicationController
 
   def random
     @menu = Menu.all.shuffle.first
-    redirect_to url: category_menu_path(@menu.category_id, @menu.id)
-
-    # Category.random
+    redirect_to "/categories/#{@menu.category_id}/menus/#{@menu.id}"
+    # redirect_to url: category_menu_path(@menu.category_id, @menu.id)
   end
 
   private
