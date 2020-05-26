@@ -1,6 +1,6 @@
 class CategoriesController < ApplicationController
   before_action :set_category, only: [:edit, :show]
-  before_action :move_to_inde, except: [:index, :show, :random]
+  before_action :move_to_index, except: [:index, :show, :random]
 
   def index
     @categories = Category.includes(:user).order("created_at DESC").page(params[:page]).per(5)
