@@ -7,7 +7,9 @@
 <td><img src="menu_index.png"></td>
 </tr>
 </table>
-![メニュー詳細](menu_show.png)
+<p align="center">
+   <img src="menu_show.png" width="500px;" />
+</p>
 
 
 
