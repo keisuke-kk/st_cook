@@ -5,9 +5,9 @@
 <tr>
 <td><img src="category_index.png"></td>
 <td><img src="menu_index.png"></td>
-<td><img src="menu_show.png"></td>
 </tr>
 </table>
+![メニュー詳細](menu_show.png)
 
 
 
