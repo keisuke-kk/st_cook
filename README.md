@@ -34,11 +34,11 @@ https://startcook.herokuapp.com
 
 
 # DEMO
-https://gyazo.com/cdbf646fc5a5d849a6efbdff51b2aa02
+https://gyazo.com/91a22c2076077f28f97bcf195ab8a148
 
 トップ画面（カテゴリー一覧） → メニュー一覧 → メニュー詳細 → トップ画面（カテゴリー一覧）
 
-https://gyazo.com/6354011beff83e2e963fbc9f7ac5e067
+https://gyazo.com/2b14bda1509c6f3301d9602822c05aba
 
 ランダム機能
 
