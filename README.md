@@ -1,9 +1,13 @@
 # アプリ名
 ## Start Cook
 「today's cook」を押下後、メニュー詳細をランダムに提示することで、今日の献立を瞬時に確定させることができます。<br>この機能は、あなたの料理上達へのモチベーションをサポートします。
-![カテゴリー一覧](category_index.png)
-![メニュー一覧](menu_index.png)
-![メニュー詳細](menu_show.png)
+<table>
+<tr>
+<td><img src="category_index.png"></td>
+<td><img src="menu_index.png"></td>
+<td><img src="menu_show.png"></td>
+</tr>
+</table>
 
 
 
