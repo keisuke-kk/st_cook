@@ -5,10 +5,10 @@
 <td><img src="category_index.png"></td>
 <td><img src="menu_index.png"></td>
 </tr>
+<tr>
+<td><img src="menu_show.png"></td>
+</tr>
 </table>
-<p align="center">
-   <img src="menu_show.png" width="500px;" />
-</p>
 
 
 
