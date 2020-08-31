@@ -89,7 +89,7 @@ https://gyazo.com/2b14bda1509c6f3301d9602822c05aba
 具体的にいえば、インフラではDockerの導入、フロントエンドではVue.jsに興味があるので、<br>
 今後の開発で取り込んでいきたいと思っております。
 
-# st-cook DB設計
+# start-cook DB設計
 ## usersテーブル
 |Column|Type|Options|
 |------|----|-------|
